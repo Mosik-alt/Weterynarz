@@ -908,24 +908,30 @@ select.error {
     text-decoration: none;
     border-radius: 4px;
     margin: 0 3px 0 0;
-    background-image: url("https://i.postimg.cc/GhMrMZm2/pizza-1.jpg");
+    background-image: url(https://images.pexels.com/photos/1389994/pexels-photo-1389994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-size: cover;
     background-position: center center;
     color: #fff;
+    border: 1px solid black;
 }
 
 .home-page-first-section .link h1 {
     transition: 0.5s;
+    color: black;
+    
+    
 }
 
 .home-page-first-section .link:hover h1 {
     transform: translateY(-12px);
     transition-timing-function: ease-in-out;
+    
 }
 
 .home-page-first-section .link p {
     opacity: 0;
     transition: 0.5s;
+    color: black;
 }
 
 .home-page-first-section .link:hover p {
@@ -936,15 +942,16 @@ select.error {
 
 .home-page-first-section .booking {
     margin: 0 0 0 3px;
-    background-image: url("https://i.postimg.cc/3RCQ2qq3/pizza-2.jpg");
+    background-image: url(https://images.pexels.com/photos/2215599/pexels-photo-2215599.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
     background-size: cover;
     background-position: center center;
-    color: #fff;
+    color: black;
+    border: 1px solid black;
 }
 
 .home-page-first-section .opening-hours {
     display: block;
-    color: #fff;
+    color: black;
     text-align: center;
     border: 1px solid black;
     margin: 6px 0 0 0;

@@ -4,7 +4,7 @@
       {
         "id": "cake",
         "class": "small",
-        "name": "Zio Stefano's Doughnut",
+        "name": "Zio Stefano's Cooke",
         "price": 9,
         "description": "Treat yourself with this soft, freshly baked cookie. The recipe has been handed down from generation to generation in our family and it has won us several first place prizes in local competitions.",
         "images": [
@@ -17,29 +17,29 @@
         "name": "Zia Giulia's Breakfast",
         "price": 9,
         "description": "There's no better way to start your day than indulging yourself with a cup of fresh Italian coffee and crispy waffels. Made just for you on the spot, this breakfast combo has been our guests' favorite for over 50 years.",
-        "images": [
-          "<img class=\"active\" src=\"images/breakfast.svg\">"
+        "images": [ 
+          "<img class=\"active\" src=\"images/bowl\">"
         ],
         "params": {
           "coffee": {
-            "label": "Coffee type",
+            "label": "Drinks",
             "type": "radios",
             "options": {
               "latte": {
-                "label": "Latte",
+                "label": "Water",
                 "price": 1,
                 "default": true
               },
               "cappuccino": {
-                "label": "Cappuccino",
+                "label": "Double water",
                 "price": 1
               },
               "espresso": {
-                "label": "Espresso",
+                "label": "Milk",
                 "price": 1
               },
               "macchiato": {
-                "label": "Macchiato ",
+                "label": "Witamins juice ",
                 "price": 1
               }
             }
@@ -47,10 +47,10 @@
         }
       },
       {
-        "id": "pizza",
-        "name": "Nonna Alba's Pizza",
+        "id": "meal",
+        "name": "Nonna Alba's Meal",
         "price": 20,
-        "description": "The true taste of Italy &ndash; homemade pizza as prepared by our grandmothers in old-fashoned brick ovens. Choose your favorite topping and enjoy your comfort food! All ingredients come straight from eco-friendly, trusted farms in the Italian countryside.",
+        "description": "The true taste of Italy &ndash; homemade meal as prepared by our grandmothers in old-fashoned brick ovens. Choose your favorite topping and enjoy your comfort food! All ingredients come straight from eco-friendly, trusted farms in the Italian countryside.",
         "images": [
           "<img class=\"active\" src=\"images/pizza/crust.svg\">",
           "<img class=\"active sauce-tomato\" src=\"images/pizza/tomato-sauce.svg\">",
@@ -64,17 +64,17 @@
         ],
         "params": {
           "sauce": {
-            "label": "Sauce",
+            "label": "Meal",
             "type": "radios",
             "options": {
-              "tomato": {
-                "label": "Tomato",
+              "meat": {
+                "label": "Meat",
                 "price": 0,
                 "default": true
               },
-              "cream": {
-                "label": "Sour cream",
-                "price": 2
+              "vege": {
+                "label": "Vege",
+                "price": 0
               }
             }
           },
@@ -82,28 +82,28 @@
             "label": "Toppings",
             "type": "checkboxes",
             "options": {
-              "olives": {
-                "label": "Olives",
+              "Fish": {
+                "label": "Fish",
                 "price": 2,
                 "default": true
               },
-              "redPeppers": {
-                "label": "Red peppers",
+              "Livers": {
+                "label": "Livers",
                 "price": 2,
                 "default": true
               },
-              "greenPeppers": {
-                "label": "Green peppers",
+              "Salad": {
+                "label": "Salad",
                 "price": 2,
                 "default": true
               },
-              "mushrooms": {
-                "label": "Mushrooms",
+              "Sedds": {
+                "label": "Sedds",
                 "price": 2,
                 "default": true
               },
-              "basil": {
-                "label": "Fresh basil",
+              "Fruits": {
+                "label": "Fruits",
                 "price": 2,
                 "default": true
               },
@@ -113,8 +113,8 @@
               }
             }
           },
-          "crust": {
-            "label": "pizza crust",
+         "crust": {
+            "label": "Special needs",
             "type": "select",
             "options": {
               "standard": {
@@ -122,12 +122,12 @@
                 "price": 0,
                 "default": true
               },
-              "thin": {
-                "label": "thin",
+              "no eggs": {
+                "label": "no eggs",
                 "price": 2
               },
-              "thick": {
-                "label": "thick",
+              "light": {
+                "label": "light",
                 "price": 2
               },
               "cheese": {
@@ -146,6 +146,7 @@
           }
         }
       },
+      */
       {
         "id": "salad",
         "name": "Nonno Alberto's Salad",

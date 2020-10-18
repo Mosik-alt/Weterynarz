@@ -5,11 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Pizzeria</title>
+  <title>Weterynarz</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:400,300i,700%7COswald:300,500,700&amp;subset=latin-ext"
     rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <link rel="stylesheet" href="vendor/range-slider.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -20,12 +21,13 @@
     <div class="container">
       <div class="header__wrapper">
         <div class="logo">
-          <h1 class="logo__title"><span>Mamma</span>Mia!</h1>
-          <h2 class="logo__subtitle">the best homemade Italian food</h2>
+          <h1 class="logo__title"><span>Pet's </span>hotel!</h1>
+          <h2 class="logo__subtitle">the best care of animals</h2>
         </div>
         <div class="main-nav">
+          <a href="#home">Home</a>
           <a href="#order">Order</a>
-          <a href="#booking">Booking</a>
+          <a href="#booking">HOTEL FOR PETS</a>
         </div>
         <div id="cart" class="cart">
           <div class="cart__summary">
@@ -62,9 +64,145 @@
         </div>
       </div>
     </div>
+
+
   </header>
 
   <div id="pages">
+    <section id="home">
+      <div class="container">
+        <div class="home-page-first-section">
+          <a href="#order" class="link order">
+            <h1>ORDER VISIT ONLINE</h1>
+            <p> The best health advice for your pets </p>
+            </dia>
+            <a href="#booking" class="link booking">
+              <h2>BOOK A ROOM:</h2>
+              <p>Find safty place for your pet</p>
+            </a>
+            <div class="opening-hours">
+              <h2>OPENING HOURS:</h2>
+              <h5>MON-SAT, 8PM-8AM</h5>
+            </div>
+        </div>
+        <div class="main-carousel"
+          data-flickity='{ "cellAlign": "right", "contain": false, "wrapAround": true, "autoPlay": true}'>
+          <div class="carousel-cell">
+            <div class="opinion-wrapper">
+              <img
+                src="https://images.pexels.com/photos/1093126/pexels-photo-1093126.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                class="carousel-photo" title="zdj2">
+              <div class="opinion-content">
+                <h1 class="opinion-header"> Amazing service </h1>
+                <p class="opinion"> Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
+                  ipsum
+                  Lorem ipsum </p>
+                <p class="signature"> - Gregory Bush </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="opinion-wrapper">
+              <img
+                src="https://images.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                class="carousel-photo" title="zdj2">
+              <div class="opinion-content">
+                <h1 class="opinion-header"> Best Service </h1>
+                <p class="opinion"> Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
+                  ipsum
+                  Lorem ipsum </p>
+                <p class="signature"> - Ronald Regan </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="opinion-wrapper">
+              <img
+                src="https://images.pexels.com/photos/850602/pexels-photo-850602.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                class="carousel-photo" title="zdj2">
+              <div class="opinion-content">
+                <h1 class="opinion-header"> Good care </h1>
+                <p class="opinion"> Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
+                  ipsum
+                  Lorem ipsum </p>
+                <p class="signature"> - Donald Trump </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="opinion-wrapper">
+              <img
+                src="https://images.pexels.com/photos/321900/pexels-photo-321900.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                class="carousel-photo" title="zdj2">
+              <div class="opinion-content">
+                <h1 class="opinion-header"> Delicious food </h1>
+                <p class="opinion"> Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
+                  ipsum
+                  Lorem ipsum </p>
+                <p class="signature"> - Barack Obama </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-container">
+          <div class="image-wrapper">
+            <img
+              src="https://images.pexels.com/photos/63853/guinea-pig-sea-pig-house-cute-guinea-pig-house-63853.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              class="photo" title="pizza1">
+            <div class="icon">
+              <a href="#"><i class="fas fa-heart"></i></a>
+              <a href="#"><i class="fas fa-share-alt"></i></a>
+            </div>
+          </div>
+          <div class="image-wrapper">
+            <img
+              src="https://images.pexels.com/photos/1461876/pexels-photo-1461876.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              class="photo" title="zdj2">
+            <div class="icon">
+              <a href="#"><i class="fas fa-heart"></i></a>
+              <a href="#"><i class="fas fa-share-alt"></i></a>
+            </div>
+          </div>
+          <div class="image-wrapper">
+            <img
+              src="https://images.pexels.com/photos/1300355/pexels-photo-1300355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              class="photo" title="zdj3">
+            <div class="icon">
+              <a href="#"><i class="fas fa-heart"></i></a>
+              <a href="#"><i class="fas fa-share-alt"></i></a>
+            </div>
+          </div>
+          <div class="image-wrapper">
+            <img
+              src="https://images.pexels.com/photos/3198000/pexels-photo-3198000.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              class="photo" title="zdj4">
+            <div class="icon">
+              <a href="#"><i class="fas fa-heart"></i></a>
+              <a href="#"><i class="fas fa-share-alt"></i></a>
+            </div>
+          </div>
+          <div class="image-wrapper">
+            <img
+              src="https://images.pexels.com/photos/1321828/pexels-photo-1321828.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              class="photo" title="zdj5">
+            <div class="icon">
+              <a href="#"><i class="fas fa-heart"></i></a>
+              <a href="#"><i class="fas fa-share-alt"></i></a>
+            </div>
+          </div>
+          <div class="image-wrapper">
+            <img
+              src="https://images.pexels.com/photos/1561849/pexels-photo-1561849.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              class="photo" title="zdj6">
+            <div class="icon">
+              <a href="#"><i class="fas fa-heart"></i></a>
+              <a href="#"><i class="fas fa-share-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="view-more">View more on Instagram</a>
+      </div>
+    </section>
     <section id="order">
       <div id="product-list" class="product-list container"></div>
     </section>
@@ -75,7 +213,7 @@
 
   <script id="template-booking-widget" type="text/x-handlebars-template">
     <div class="booking-widget">
-      <h2 class="page__title no-spacing">Book a table</h2>
+      <h2 class="page__title no-spacing">Book a room</h2>
       <form class="booking-form">
         <div class="time-picker">
           <div class="date-picker">
@@ -85,19 +223,19 @@
           <div class="hour-picker range-slider">
               <div class="output"></div>
               <label class="booking-option-title">Pick a time</label>
-            <input type="range" name="hour" value="12" min="12" max="24" step="0.5">
+            <input type="range" name="hour" value="12" min="8" max="20" step="1">
           </div>
         </div>
         <div class="floor-plan">
           <div class="object entry">entry</div>
-          <div class="object bar">bar</div>
-          <div class="object table" data-table="1">table-1</div>
-          <div class="object table table--round" data-table="2">table-2</div>
-          <div class="object table" data-table="3">table-3</div>
+          <div class="object bar">guardian</div>
+          <div class="object table" data-table="1">room-1</div>
+          <div class="object table table--round" data-table="2">room-2</div>
+          <div class="object table" data-table="3">room-3</div>
         </div>
         <div class="booking-options"> <!-- options -->
           <label class="booking-option-title"> <!-- option-row -->
-            People
+            Pets
             <div class="widget-amount people-amount"> <!-- widget-amount -->
               <a class="btn-quantity" href="#less"><i class="fas fa-minus"></i></a>
               <input class="amount" type="text" name="people" value="1">
@@ -105,7 +243,7 @@
             </div>
           </label>
           <label class="booking-option-title"> <!-- option-row -->
-            Hours
+            Days
             <div class="widget-amount hours-amount"> <!-- widget-amount -->
               <a class="btn-quantity" href="#less"><i class="fas fa-minus"></i></a>
               <input class="amount" type="text" name="hours" value="1">
@@ -123,9 +261,9 @@
             </div>
             <div class="checkbox"> <!-- checkbox -->
               <label>
-                <input type="checkbox" name="starter" value="bread">
+                <input type="checkbox" name="starter" value="meat">
                 <span class="checkbox__checkmark"></span>
-                Bread
+                Meat
               </label>
             </div>
           </div>
@@ -133,7 +271,7 @@
         <div class="order-confirmation">
           <input type="tel" name="phone" placeholder="Your phone">
           <input type="text" name="address" placeholder="Your address">
-          <button type="submit" class="btn-secondary">Book table</button>
+          <button type="submit" class="btn-secondary">Book room</button>
         </div>
       </form>
     </div>
@@ -248,6 +386,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.0/handlebars.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   <script src="vendor/range-slider.min.js"></script>
   <script src="js/app.js" type="module"></script>
 </body>
